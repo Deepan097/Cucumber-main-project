@@ -6,6 +6,12 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.base.BaseClass;
 
+/**
+ * 
+ * @author Deepan
+ * @description Used to store webelement for booking confirmation 
+ * @date28/08/22
+ */
 public class BookingConfirmPage extends BaseClass {
 
 	static String orderId;
@@ -17,7 +23,7 @@ public class BookingConfirmPage extends BaseClass {
 	@FindBy(id = "order_no")
 	private WebElement txtOrderNo;
 
-	@FindBy(xpath ="//td[text()='Booking Confirmation ']")
+	@FindBy(xpath = "//td[text()='Booking Confirmation ']")
 	private WebElement txtBookingHeader;
 
 	public WebElement getTxtBookingHeader() {

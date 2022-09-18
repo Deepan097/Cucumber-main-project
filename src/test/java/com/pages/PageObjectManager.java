@@ -1,5 +1,10 @@
 package com.pages;
-
+/**
+ * 
+ *@author Deepan
+ *@description Used to main singleton design pattern
+ *@date 28/08/22
+ */
 public class PageObjectManager {
 
 	private LoginPage loginPage;

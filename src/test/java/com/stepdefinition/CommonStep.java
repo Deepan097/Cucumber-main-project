@@ -5,7 +5,11 @@ import com.pages.PageObjectManager;
 
 import io.cucumber.java.en.Then;
 import junit.framework.Assert;
-
+/**
+ * 
+ * @author Deepan
+ *@description Used to verify login sucessful message
+ */
 @SuppressWarnings("deprecation")
 public class CommonStep extends BaseClass {
 	PageObjectManager pom = new PageObjectManager();

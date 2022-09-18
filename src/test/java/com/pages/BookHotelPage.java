@@ -6,6 +6,12 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.base.BaseClass;
 
+/**
+ * 
+ * @author Deepan
+ * @description Used to maintain webelement for bookhotel page
+ * @date 29/08/22
+ */
 public class BookHotelPage extends BaseClass {
 
 	public BookHotelPage() {
@@ -131,7 +137,17 @@ public class BookHotelPage extends BaseClass {
 	public WebElement getBtnBook() {
 		return btnBook;
 	}
-
+/**
+ * @description Used to perform book hotel
+ * @param firstName
+ * @param lastName
+ * @param address
+ * @param ccType
+ * @param ccNum
+ * @param ccExpMonth
+ * @param ccExpYear
+ * @param ccv
+ */
 	// 1. Verifying Adactin Book Hotel Page
 	public void bookHotel(String firstName, String lastName, String address, String ccType, String ccNum,
 			String ccExpMonth, String ccExpYear, String ccv) {
@@ -147,7 +163,9 @@ public class BookHotelPage extends BaseClass {
 		elementSendKeys(getTxtCvv(), ccv);
 		elementClick(getBtnBook());
 	}
-
+/**
+ * @description  Used to perform click
+ */
 	// 2. Verifying Adactin Book Hotel Page Without Enter Any Fields
 	public void bookHotel() {
 		elementClick(getBtnBook());

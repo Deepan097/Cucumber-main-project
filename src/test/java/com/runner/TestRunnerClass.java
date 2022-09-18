@@ -8,7 +8,12 @@ import com.reports.Reporting;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.CucumberOptions.SnippetType;
-
+/**
+ * 
+ * @author Deepan
+ *@description Used to run the cucumber project
+ *@date 28/08/22
+ */
 @RunWith(Cucumber.class)
 // tages="not @CancelBookingOnly"
 @CucumberOptions(features = "src\\test\\resources\\Features", glue = "com.stepdefinition", dryRun = false, stepNotifications = true, publish = true,

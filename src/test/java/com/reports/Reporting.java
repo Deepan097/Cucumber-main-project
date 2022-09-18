@@ -6,7 +6,12 @@ import java.util.List;
 
 import net.masterthought.cucumber.Configuration;
 import net.masterthought.cucumber.ReportBuilder;
-
+/**
+ * 
+ * @author Deepan
+ *@description Used to generate an jvm report
+ *@Date 28/08/22
+ */
 
 public class Reporting {
 
@@ -16,7 +21,7 @@ public class Reporting {
 		File file = new File(System.getProperty("user.dir")+"\\target\\output.jvm");
 		
 		//2. Create obj for configuration 
-		Configuration config = new Configuration(file, jsonFile);
+		Configuration config = new Configuration(file, "AdactinAutomation");
 		
 		//3. Add classification OS, Chrome, version ,sprint
 		config.addClassifications("Browser", "Chrome");

@@ -6,6 +6,13 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.base.BaseClass;
 
+/**
+ * 
+ * @author Deepan
+ * @description Used to maintain webelement of cancelbooking page 
+ * @date 28/08/22
+ *              
+ */
 public class CancelBookingPage extends BaseClass {
 	private static String BookingId = null;
 
@@ -56,6 +63,10 @@ public class CancelBookingPage extends BaseClass {
 		return CancelledMsg;
 	}
 
+	/**
+	 * @description Used to perform cancelbooking
+	 * @param BookingId
+	 */
 	// 1.search orderId and cancel orderId
 	// 2.Search Existing OrderId and Cancel Hotel
 	public void cancelBooking(String BookingId) {

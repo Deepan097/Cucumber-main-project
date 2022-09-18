@@ -31,4 +31,4 @@ Feature: Verifying Adactin Cancel Booking Hotel Page
 
     Examples: 
       | username | password | orderId    |
-      | Deepan97 | 12345678 | P4UL91NNPN |
+      | Deepan97 | 12345678 | 8P1S904X2C |
